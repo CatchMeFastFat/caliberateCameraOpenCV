@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bunch	../src/common.py	/^class Bunch(object):$/;"	kind:class	line:25
+RectSelector	../src/common.py	/^class RectSelector:$/;"	kind:class	line:165
+Sketcher	../src/common.py	/^class Sketcher:$/;"	kind:class	line:86
+StatValue	../src/common.py	/^class StatValue:$/;"	kind:class	line:154
+Timer	../src/common.py	/^def Timer(msg):$/;"	kind:function	line:146
+__init__	../src/common.py	/^    def __init__(self, **kw):$/;"	kind:member	line:26
+__init__	../src/common.py	/^    def __init__(self, smooth_coef = 0.5):$/;"	kind:member	line:155
+__init__	../src/common.py	/^    def __init__(self, win, callback):$/;"	kind:member	line:166
+__init__	../src/common.py	/^    def __init__(self, windowname, dests, colors_func):$/;"	kind:member	line:87
+__str__	../src/common.py	/^    def __str__(self):$/;"	kind:member	line:28
+_jet_data	../src/common.py	/^_jet_data =   {'red':   ((0., 0, 0), (0.35, 0, 0), (0.66, 1, 1), (0.89,1, 1),$/;"	kind:variable	line:115
+anorm	../src/common.py	/^def anorm(a):$/;"	kind:function	line:38
+anorm2	../src/common.py	/^def anorm2(a):$/;"	kind:function	line:36
+args	../src/caliberateCamera.py	/^    args = dict(args)$/;"	kind:variable	line:34
+caliberateCamera.py	../src/caliberateCamera.py	1;"	kind:file	line:1
+clock	../src/common.py	/^def clock():$/;"	kind:function	line:142
+cmap_data	../src/common.py	/^cmap_data = { 'jet' : _jet_data }$/;"	kind:variable	line:122
+common.py	../src/common.py	1;"	kind:file	line:1
+contextmanager	../src/common.py	/^from contextlib import contextmanager$/;"	kind:namespace	line:21
+cv2	../src/caliberateCamera.py	/^import cv2$/;"	kind:namespace	line:20
+cv2	../src/common.py	/^import cv2$/;"	kind:namespace	line:16
+debug_dir	../src/caliberateCamera.py	/^    debug_dir = args.get('--debug')$/;"	kind:variable	line:43
+dragging	../src/common.py	/^    def dragging(self):$/;"	kind:member	line:198
+draw	../src/common.py	/^    def draw(self, vis):$/;"	kind:member	line:191
+draw_keypoints	../src/common.py	/^def draw_keypoints(vis, keypoints, color = (0, 255, 255)):$/;"	kind:function	line:234
+draw_str	../src/common.py	/^def draw_str(dst, target, s):$/;"	kind:function	line:81
+dst	../src/caliberateCamera.py	/^        dst = cv2.undistort(img, camera_matrix, dist_coefs, None, newcameramtx)$/;"	kind:variable	line:103
+dst	../src/caliberateCamera.py	/^        dst = dst[y:y+h, x:x+w]$/;"	kind:variable	line:107
+getopt	../src/caliberateCamera.py	/^    import getopt$/;"	kind:namespace	line:30
+getsize	../src/common.py	/^def getsize(img):$/;"	kind:function	line:227
+glob	../src/caliberateCamera.py	/^    from glob import glob$/;"	kind:namespace	line:31
+grouper	../src/common.py	/^def grouper(n, iterable, fillvalue=None):$/;"	kind:function	line:202
+homotrans	../src/common.py	/^def homotrans(H, x, y):$/;"	kind:function	line:41
+image_extensions	../src/common.py	/^image_extensions = ['.bmp', '.jpg', '.jpeg', '.png', '.tif', '.tiff', '.pbm', '.pgm', '.ppm']$/;"	kind:variable	line:23
+img	../src/caliberateCamera.py	/^        img = cv2.imread(fn, 0)$/;"	kind:variable	line:59
+img	../src/caliberateCamera.py	/^        img = cv2.imread(img_found)$/;"	kind:variable	line:98
+img_mask	../src/caliberateCamera.py	/^        img_mask = '..\/data\/left*.jpg'  # default$/;"	kind:variable	line:38
+img_mask	../src/caliberateCamera.py	/^        img_mask = img_mask[0]$/;"	kind:variable	line:40
+img_names	../src/caliberateCamera.py	/^    img_names = glob(img_mask)$/;"	kind:variable	line:42
+img_names_undistort	../src/caliberateCamera.py	/^    img_names_undistort = []$/;"	kind:variable	line:56
+img_points	../src/caliberateCamera.py	/^    img_points = []$/;"	kind:variable	line:54
+it	../src/common.py	/^import itertools as it$/;"	kind:namespace	line:20
+lookat	../src/common.py	/^def lookat(eye, target, up = (0, 0, 1)):$/;"	kind:function	line:63
+make_cmap	../src/common.py	/^def make_cmap(name, n=256):$/;"	kind:function	line:124
+mdot	../src/common.py	/^def mdot(*args):$/;"	kind:function	line:231
+mosaic	../src/common.py	/^def mosaic(w, imgs):$/;"	kind:function	line:211
+mtx2rvec	../src/common.py	/^def mtx2rvec(R):$/;"	kind:function	line:73
+nothing	../src/common.py	/^def nothing(*arg, **kw):$/;"	kind:function	line:139
+np	../src/caliberateCamera.py	/^import numpy as np$/;"	kind:namespace	line:19
+np	../src/common.py	/^import numpy as np$/;"	kind:namespace	line:15
+obj_points	../src/caliberateCamera.py	/^    obj_points = []$/;"	kind:variable	line:53
+on_mouse	../src/common.py	/^    def on_mouse(self, event, x, y, flags, param):$/;"	kind:member	line:99
+onmouse	../src/common.py	/^    def onmouse(self, event, x, y, flags, param):$/;"	kind:member	line:172
+os	../src/caliberateCamera.py	/^import os$/;"	kind:namespace	line:26
+os	../src/common.py	/^import os$/;"	kind:namespace	line:19
+outfile	../src/caliberateCamera.py	/^            outfile = debug_dir + name + '_chess.png'$/;"	kind:variable	line:74
+outfile	../src/caliberateCamera.py	/^        outfile = img_found + '_undistorted.png'$/;"	kind:variable	line:108
+pattern_points	../src/caliberateCamera.py	/^    pattern_points = np.zeros((np.prod(pattern_size), 3), np.float32)$/;"	kind:variable	line:49
+pattern_size	../src/caliberateCamera.py	/^    pattern_size = (9, 6)$/;"	kind:variable	line:48
+print_function	../src/caliberateCamera.py	/^from __future__ import print_function$/;"	kind:namespace	line:17
+print_function	../src/common.py	/^from __future__ import print_function$/;"	kind:namespace	line:8
+rect2rect_mtx	../src/common.py	/^def rect2rect_mtx(src, dst):$/;"	kind:function	line:53
+reduce	../src/common.py	/^    from functools import reduce$/;"	kind:namespace	line:13
+show	../src/common.py	/^    def show(self):$/;"	kind:member	line:96
+splitfn	../src/caliberateCamera.py	/^from common import splitfn$/;"	kind:namespace	line:23
+splitfn	../src/common.py	/^def splitfn(fn):$/;"	kind:function	line:31
+square_size	../src/caliberateCamera.py	/^    square_size = float(args.get('--square_size'))$/;"	kind:variable	line:46
+sys	../src/caliberateCamera.py	/^    import sys$/;"	kind:namespace	line:29
+sys	../src/common.py	/^import sys$/;"	kind:namespace	line:9
+term	../src/caliberateCamera.py	/^            term = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_COUNT, 30, 0.1)$/;"	kind:variable	line:67
+to_rect	../src/common.py	/^def to_rect(a):$/;"	kind:function	line:47
+update	../src/common.py	/^    def update(self, v):$/;"	kind:member	line:158
+vis	../src/caliberateCamera.py	/^            vis = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)$/;"	kind:variable	line:71

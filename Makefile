@@ -1,2 +1,2 @@
-all:
-	g++ ./src/main.cpp `pkg-config --libs --cflags opencv` -o main
+all: ./src/caliberateCamera.py ./src/common.py
+	python2 ./src/caliberateCamera.py
